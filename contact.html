@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="about-banner">
+    <div class="container text-center py-5 text-white">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Obcaecati, porro.</p>
+    </div>
+  </div>
+
+  <div class="contact-info bg-dark text-white">
+    <div class="row">
+      <div class="col-md-4 offset-md-2">
+        <div class="icon-boxes my-5 d-flex">
+          <i class="fas fa-truck fa-2x bg-danger p-3 mr-3"></i>
+          <h3>Trucking Shipping <br> Services</h3>
+        </div>
+        <div class="icon-boxes my-5 d-flex">
+          <i class="fas fa-truck fa-2x bg-danger p-3 mr-3"></i>
+          <h3>Trucking Shipping <br> Services</h3>
+        </div>
+        <div class="icon-boxes my-5 d-flex">
+          <i class="fas fa-truck fa-2x bg-danger p-3 mr-3"></i>
+          <h3>Trucking Shipping <br> Services</h3>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="img/media.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form my-5">
+    <div class="container">
+      <div class="row">
+<div class="col-md-4">
+        <div class="card">
+          <div class="card-body p-3">
+            <h4>Get In Touch</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h4>Address</h4>
+            <p>123 Main St</p>
+            <h4>Email</h4>
+            <p>admin@citytech.uz</p>
+            <h4>Phone</h4>
+            <p>+998 90 020 0518</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card p-3">
+          <div class="card-body">
+             <h3 class="text-center">Please fill out the form contact us</h3>
+              <hr>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control">
+                </div>
+                 <div class="col-md-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control">
+                </div>
+                 <div class="col-md-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <textarea class="form-control"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <a href="#" class="btn btn-outline-danger btn-block">Submit</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
